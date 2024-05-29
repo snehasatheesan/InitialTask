@@ -1,0 +1,20 @@
+package practice;
+
+import java.util.Scanner;
+
+public class program1 {
+
+	public static void main(String[] args) {
+	int g;
+	Scanner scanner=new Scanner(System.in);
+	System.out.println("enter any character:");
+	char letter=scanner.next().charAt(0);
+	int ascciNumber=letter;
+	System.out.println(ascciNumber +" this is Ascii for giver letter & letter is :"+letter);
+	for(int i=ascciNumber;i<=90;i++) {
+		System.out.print((char)i+" ");
+	}
+	}
+	
+	
+	}
